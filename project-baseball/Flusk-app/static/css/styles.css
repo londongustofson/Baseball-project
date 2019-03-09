@@ -1,0 +1,92 @@
+﻿html, body {
+	height:100%;
+	width: 100%;
+}
+
+.navbar{
+	background-color: black;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
+.navbar-brand{
+	min-height: 55px;
+	padding: 10px 15px 10px;
+	font-size: 2.2em;
+}
+
+.navbar-default .navbar-nav li a{
+	color: grey;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a.dropdown  {
+	color: red;
+}
+
+#home{
+	background: url(../images/main.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#home .landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+#home .landing-text h1{
+	font-size: 600%;
+	font-weight: 800;
+	color: red;
+
+}
+
+#home .landing-text hr{
+	width: 330px;
+  	margin: auto;
+  	border-width: 5px;
+  	border-color: black;
+
+}
+.landing-text p{
+	font-size: 300%;
+	font-weight: 400;
+	color: black;
+}
+
+/* keyframe animations which will be used to animate the title */
+@keyframes title {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  font-size: 4.5rem;
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes smaller-title {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  font-size: 5.5rem;
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes subtitle {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+
+
