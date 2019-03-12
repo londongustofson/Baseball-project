@@ -1,4 +1,6 @@
 # Baseball-project
+
+Analyzed various statistics and outcomes regarding stolen bases, pitching accuracy, and salary earnings. Visualized and illuminated current trends in baseball using Flask, MySQL, JavaScript, HTML, and Python. Displayed the visualizations on a dashboard, these included a heat map, bubble charts and other informative plotting’s.
 The Story:
 
 Data analytics within baseball is one of the fastest growing aspects of professional sports. All components of the game are now thoroughly analyzed by analyst and various metrics. In our group project, we selected some popular aspects of the game in hopes of examining presumed trends surrounding them.
